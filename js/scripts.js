@@ -85,9 +85,9 @@ function sendWhatsAppMessage() {
     const email = document.getElementById('email').value;
     const message = document.getElementById('message').value;
     const mobileNumber = document.getElementById('phone').value;
-    const phoneNumber = '+27822939291';
+    const phoneNumber = '+27810002562';
 
-    const whatsappMessage = `Website Enquiry%0A%0AName: ${name}%0APhone: ${mobileNumber}%0AEmail: ${email}%0AMessage: ${message}`;
+    const whatsappMessage = `GREENVAULT Website Enquiry%0A%0AName: ${name}%0APhone: ${mobileNumber}%0AEmail: ${email}%0AMessage: ${message}`;
     const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${whatsappMessage}`;
 
     window.location.href = whatsappURL;
